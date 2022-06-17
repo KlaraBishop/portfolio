@@ -1,0 +1,31 @@
+$font-stack: Verdana, Geneva, Tahoma, sans-serif;
+$dark: rgba(39, 34, 35, 0.849);
+$backgroundColor: rgb(255, 187, 197);
+
+body {
+    font-size: $font-stack;
+    margin: 0;
+    background-color: $backgroundColor;
+}
+
+#navbar{
+    background-color: $dark;
+    font-size: 24px;
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    justify-content: right;
+    padding-right: 5rem;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    align-items: center;
+}
