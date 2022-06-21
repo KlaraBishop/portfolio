@@ -1,0 +1,49 @@
+.contact-form {
+  background-color: #f0eaea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  padding: 1rem 4rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 3px black;
+          box-shadow: 0 0 3px black;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+#contact-submit {
+  padding: 8px;
+  width: 25%;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+#contact-submit:hover {
+  cursor: pointer;
+}
+
+.form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 8px;
+}
+/*# sourceMappingURL=contact-form.css.map */
